@@ -1,0 +1,19 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Etapa1\CTI_Etapa1.net
+Start Time: Tue Jun  9 12:12:09 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.110 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Etapa1\CTI_Etapa1.net
+
+vpd: V(nodo_pd) =-100 at 5e-05
+vamp: V(nodo_int) =102000 at 5e-05
+v1: V(nodo_int) =102000 at 5e-05
+v2: V(nodo_int) =102000 at 0.0002
+slope: (V2-V1)/(150u)=0

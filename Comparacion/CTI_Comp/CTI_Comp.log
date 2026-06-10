@@ -1,0 +1,28 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Comp\CTI_Comp.net
+Start Time: Wed Jun 10 19:48:27 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 0.097 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Comp\CTI_Comp.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
+v1: V(nodo_int) =2.19085362341 at 0.0002
+v2: V(nodo_int) =2.82683706284 at 0.0008
+slope: (V2-V1)/(600u)=1059.97239904
+vint800: V(nodo_int) =2.82683706284 at 0.0008
+vout850: V(nodo_out) =2.86666828146 at 0.00085
+vpdavg: AVG(V(nodo_pd) )=1.99998054583 FROM 0.0001 TO 0.0008
+ivdd: AVG(I(Vdd) )=1.00000001169e-07 FROM 0.0001 TO 0.0008
+ivcc: AVG(I(VCC) )=-0.000444488476068 FROM 0.0001 TO 0.0008
+ivee: AVG(I(VEE) )=0.000425379052427 FROM 0.0001 TO 0.0008
+pcti: abs(5*IVDD)+abs(5*IVCC)+abs(5*IVEE)=0.00434983764248

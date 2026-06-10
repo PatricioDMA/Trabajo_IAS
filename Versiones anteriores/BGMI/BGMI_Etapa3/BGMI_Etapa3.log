@@ -1,0 +1,51 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Etapa3\BGMI_Etapa3.net
+Start Time: Wed Jun 10 12:34:49 2026
+
+.step iph=1e-09
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "MB": Length shorter than recommended for a level 1 MOSFET.
+Instance "MA": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "MR": Length shorter than recommended for a level 1 MOSFET.
+Instance "MS": Length shorter than recommended for a level 1 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+
+.step iph=1e-08
+
+.step iph=1e-07
+Total elapsed time: 0.267 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Etapa3\BGMI_Etapa3.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
+
+Measurement: v1
+  step	V(nodo_int) 	at
+     1	0.00977820648647	0.0002
+     2	0.0273460278974	0.0002
+     3	0.202683834002	0.0002
+
+Measurement: v2
+  step	V(nodo_int) 	at
+     1	0.0423549450934	0.0008
+     2	0.118388168514	0.0008
+     3	0.872821927071	0.0008
+
+Measurement: slope
+  step	(V2-V1)/(600u)
+     1	54.2945643449
+     2	151.736901027
+     3	1116.89682178
+
+Measurement: vpdavg
+  step	AVG(V(nodo_pd) )	FROM	TO
+     1	1.99999731775	0.0001	0.0008
+     2	1.99999725821	0.0001	0.0008
+     3	1.99999726415	0.0001	0.0008

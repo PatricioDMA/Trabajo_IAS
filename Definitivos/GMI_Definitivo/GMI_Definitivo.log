@@ -1,0 +1,21 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\GMI_Definitivo\GMI_Definitivo.net
+Start Time: Wed Jun 10 11:49:52 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "M4": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.109 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\GMI_Definitivo\GMI_Definitivo.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+
+vgsmax: MAX(V(select,nodo_int))=5 FROM 0 TO 0.05
+vgsmin: MIN(V(select,nodo_int))=-5.00087499619 FROM 0 TO 0.05

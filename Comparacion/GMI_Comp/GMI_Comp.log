@@ -1,0 +1,27 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\GMI_Comp\GMI_Comp.net
+Start Time: Wed Jun 10 19:44:56 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M3": Length shorter than recommended for a level 1 MOSFET.
+Instance "M4": Length shorter than recommended for a level 1 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 0.106 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\GMI_Comp\GMI_Comp.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+
+v1: V(nodo_int) =0.194900382049 at 0.0002
+v2: V(nodo_int) =0.837950587273 at 0.0008
+slope: (V2-V1)/(600u)=1071.75034204
+vint800: V(nodo_int) =0.837950587273 at 0.0008
+vout850: V(nodo_out) =0.890889564686 at 0.00085
+vpdavg: AVG(V(nodo_pd) )=4.28595781326 FROM 0.0001 TO 0.0008
+ivdd: AVG(I(Vdd) )=-2.07544704478e-07 FROM 0.0001 TO 0.0008
+pgmi: abs(5*IVDD)=1.03772352239e-06

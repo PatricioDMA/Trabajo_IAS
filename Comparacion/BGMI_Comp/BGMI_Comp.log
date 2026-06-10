@@ -1,0 +1,201 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Comp\BGMI_Comp.net
+Start Time: Wed Jun 10 19:56:41 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "MB": Length shorter than recommended for a level 1 MOSFET.
+Instance "MA": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "MR": Length shorter than recommended for a level 1 MOSFET.
+Instance "MS": Length shorter than recommended for a level 1 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+Changing Tseed to 1.95313e-10
+Changing Tseed to 1.95312e-12
+Changing Tseed to 1.95312e-09
+Changing Tseed to 1.95313e-13
+Changing Tseed to 1.95312e-08
+Changing Tseed to 1.95312e-14
+Changing Tseed to 1.95312e-07
+Changing Tseed to 1.95312e-15
+Changing Tseed to 1.95313e-06
+Changing Tseed to 1.95312e-16
+Changing Tseed to 1.95312e-05
+Changing Tseed to 1.95312e-17
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Warning: Simulation tolerance relaxed to achieve convergence from 0.0000000000000000e+00 Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+to 4.0000000000000003e-18 seconds.
+Total elapsed time: 0.384 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Comp\BGMI_Comp.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
+v1: V(nodo_int) =0.202683834002 at 0.0002
+v2: V(nodo_int) =0.872821927071 at 0.0008
+slope: (V2-V1)/(600u)=1116.89682178
+vint800: V(nodo_int) =0.872821927071 at 0.0008
+vout850: V(nodo_out) =0.927845072414 at 0.00085
+vpdavg: AVG(V(nodo_pd) )=1.99999726415 FROM 0.0001 TO 0.0008
+ivd: AVG(I(VD)   )=1.00000001169e-07 FROM 0.0001 TO 0.0008
+ivdd: AVG(I(VDD)  )=-2.15806793834e-07 FROM 0.0001 TO 0.0008
+ivcc: AVG(I(VCC1) )=-0.000419902382429 FROM 0.0001 TO 0.0008
+ivee: AVG(I(VEE1) )=0.000419937660964 FROM 0.0001 TO 0.0008
+pbgmi: abs(VD*IVD)+abs(VDD*IVDD)+abs(5*IVCC)+abs(5*IVEE)=0.00420047925094

@@ -1,0 +1,36 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BDI_Definitivo\BDI_Definitivo.net
+Start Time: Wed Jun 10 11:43:26 2026
+
+.step iph=1e-09
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M4": Length shorter than recommended for a level 1 MOSFET.
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Instance "M3": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+
+.step iph=1e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+
+.step iph=1e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.253 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BDI_Definitivo\BDI_Definitivo.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+

@@ -1,0 +1,78 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BDI_Etapa2\BDI_Etapa2.net
+Start Time: Mon Jun  8 18:13:21 2026
+
+.step iph=1e-09
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node nodo_int is floating.
+
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+
+.step iph=1e-08
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+
+.step iph=1e-07
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.419 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BDI_Etapa2\BDI_Etapa2.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+
+
+Measurement: vbias
+  step	V(bias) 	at
+     1	2	1e-06
+     2	2	1e-06
+     3	2	1e-06
+
+Measurement: vpd
+  step	V(nodo_pd) 	at
+     1	-1.07697247608e-05	1e-06
+     2	-0.000107696691647	1e-06
+     3	-0.00107691153431	1e-06
+
+Measurement: vg
+  step	V(gate) 	at
+     1	2000.01080215	1e-06
+     2	2000.10765527	1e-06
+     3	2001.07691895	1e-06
+
+Measurement: vint
+  step	V(nodo_int) 	at
+     1	-9.99999969794e-06	1e-06
+     2	-9.99999980816e-05	1e-06
+     3	-0.000999999987722	1e-06
+
+Measurement: v1
+  step	V(nodo_int) 	at
+     1	-0.000499999869076	5e-05
+     2	-0.00499999878639	5e-05
+     3	-0.0499999862507	5e-05
+
+Measurement: v2
+  step	V(nodo_int) 	at
+     1	-0.00199999794837	0.0002
+     2	-0.0199999799494	0.0002
+     3	-0.199999796261	0.0002
+
+Measurement: slope
+  step	(V2-V1)/(150u)
+     1	-9.99998719531
+     2	-99.99987442
+     3	-999.998733401

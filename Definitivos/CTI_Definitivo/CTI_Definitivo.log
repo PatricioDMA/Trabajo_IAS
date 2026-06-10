@@ -1,0 +1,28 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Definitivo\CTI_Definitivo.net
+Start Time: Tue Jun  9 22:01:09 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 0.100 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Definitivo\CTI_Definitivo.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
+v1: V(nodo_int) =2.19087518394 at 0.0002
+v2: V(nodo_int) =2.82686946707 at 0.0008
+slope: (V2-V1)/(600u)=1059.99047188
+vpd50: V(nodo_pd) =1.99999636442 at 5e-05
+vint50: V(nodo_int) =2.03187624218 at 5e-05
+icavg: AVG(I(Cint) )=-1.00419969298e-07 FROM 1e-05 TO 0.0002
+vint_before_reset: V(nodo_int) =3.02825241287 at 0.00099
+vint_after_reset: V(nodo_int) =2.00007438986 at 0.00202
+vpd_avg: AVG(V(nodo_pd) )=1.99998042825 FROM 0.0001 TO 0.0009
+ireset: AVG(Id(M2) )=-1.02774173992e-12 FROM 0.0001 TO 0.0009

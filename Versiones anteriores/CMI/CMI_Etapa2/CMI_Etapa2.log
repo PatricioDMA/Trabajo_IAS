@@ -1,0 +1,171 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CMI_Etapa2\CMI_Etapa2.net
+Start Time: Wed Jun 10 14:24:58 2026
+
+.step iph=1e-09
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "Mp1": Length shorter than recommended for a level 1 MOSFET.
+Instance "Mp2": Length shorter than recommended for a level 1 MOSFET.
+Instance "Mpaux": Length shorter than recommended for a level 1 MOSFET.
+Instance "Mn1": Length shorter than recommended for a level 1 MOSFET.
+Instance "Mn2": Length shorter than recommended for a level 1 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+Changing Tseed to 9.76563e-11
+Changing Tseed to 9.76562e-13
+Changing Tseed to 9.76562e-10
+Changing Tseed to 9.76563e-14
+Changing Tseed to 9.76562e-09
+Changing Tseed to 9.76562e-15
+Changing Tseed to 9.76562e-08
+Changing Tseed to 9.76562e-16
+Changing Tseed to 9.76563e-07
+Changing Tseed to 9.76562e-17
+Changing Tseed to 9.76562e-06
+Changing Tseed to 9.76562e-18
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Warning: Simulation tolerance relaxed to achieve convergence from 0.0000000000000000e+00 Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+to 2.0000000000000001e-18 seconds.
+
+.step iph=1e-08
+
+.step iph=1e-07
+Total elapsed time: 0.411 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CMI_Etapa2\CMI_Etapa2.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+
+
+Measurement: v1
+  step	V(nodo_int) 	at
+     1	0.00218647264679	0.0002
+     2	0.021706970227	0.0002
+     3	0.216491748193	0.0002
+
+Measurement: v2
+  step	V(nodo_int) 	at
+     1	0.00874532131587	0.0008
+     2	0.0867760156536	0.0008
+     3	0.860862796589	0.0008
+
+Measurement: slope
+  step	(V2-V1)/(600u)
+     1	10.9314144485
+     2	108.448409044
+     3	1073.95174733
+
+Measurement: vpdavg
+  step	AVG(V(nodo_pd) )	FROM	TO
+     1	0.000105982740934	0.0001	0.0008
+     2	0.000306984555209	0.0001	0.0008
+     3	0.00095664500259	0.0001	0.0008

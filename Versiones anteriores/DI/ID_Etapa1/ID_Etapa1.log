@@ -1,0 +1,48 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Etapa1\ID_Etapa1.net
+Start Time: Fri Jun  5 19:23:32 2026
+
+.step iph=0
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration succeeded in finding operating point.
+
+.step iph=1e-09
+Direct Newton iteration succeeded in finding operating point.
+
+.step iph=1e-08
+Direct Newton iteration succeeded in finding operating point.
+
+.step iph=1e-07
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.311 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Etapa1\ID_Etapa1.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+
+
+Measurement: v1
+  step	V(nodo_int) 	at
+     1	0	5e-06
+     2	4.99986248156e-05	5e-06
+     3	0.000499986248156	5e-06
+     4	0.00499986251794	5e-06
+
+Measurement: v2
+  step	V(nodo_int) 	at
+     1	0	2e-05
+     2	0.000199977979201	2e-05
+     3	0.00199977985022	2e-05
+     4	0.0199977981384	2e-05
+
+Measurement: slope
+  step	(V2-V1)/(15u)
+     1	0
+     2	9.9986236257
+     3	99.9862401375
+     4	999.862374696

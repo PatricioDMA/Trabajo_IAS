@@ -1,0 +1,59 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Etapa3\CTI_Etapa3.net
+Start Time: Tue Jun  9 20:28:54 2026
+
+.step iph=1e-09
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+
+.step iph=1e-08
+
+.step iph=1e-07
+Total elapsed time: 0.256 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Etapa3\CTI_Etapa3.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
+
+Measurement: v1
+  step	V(nodo_int) 	at
+     1	0.0140353422612	0.0002
+     2	0.0320338755846	0.0002
+     3	0.212019219995	0.0002
+
+Measurement: v2
+  step	V(nodo_int) 	at
+     1	0.0560160915737	0.0008
+     2	0.128014543088	0.0008
+     3	0.847999268528	0.0008
+
+Measurement: slope
+  step	(V2-V1)/(600u)
+     1	69.9679155209
+     2	159.967779172
+     3	1059.96674756
+
+Measurement: vpd50
+  step	V(nodo_pd) 	at
+     1	1.99989649273	5e-05
+     2	1.99989506415	5e-05
+     3	1.99988075842	5e-05
+
+Measurement: vint50
+  step	V(nodo_int) 	at
+     1	0.00339690355435	5e-05
+     2	0.00789547059403	5e-05
+     3	0.0528811397835	5e-05
+
+Measurement: icavg
+  step	AVG(I(Cint) )	FROM	TO
+     1	-6.99999499826e-09	1e-05	0.0002
+     2	-1.59999906468e-08	1e-05	0.0002
+     3	-1.05999947075e-07	1e-05	0.0002

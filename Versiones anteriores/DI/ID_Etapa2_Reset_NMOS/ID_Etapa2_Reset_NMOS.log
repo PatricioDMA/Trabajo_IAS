@@ -1,0 +1,22 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Etapa2_Reset_NMOS\ID_Etapa2_Reset_NMOS.net
+Start Time: Thu Jun  4 20:57:58 2026
+
+.step vr_amp=0
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+Instance "M2": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration succeeded in finding operating point.
+
+.step vr_amp=5
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.177 seconds.
+
+Files loaded:
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Etapa2_Reset_NMOS\ID_Etapa2_Reset_NMOS.net
+C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
+
