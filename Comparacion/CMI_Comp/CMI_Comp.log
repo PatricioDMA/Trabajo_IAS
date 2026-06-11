@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CMI_Comp\CMI_Comp.net
-Start Time: Wed Jun 10 20:03:20 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Comparacion\CMI_Comp\CMI_Comp.net
+Start Time: Thu Jun 11 15:28:52 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -195,10 +195,10 @@ Changing Tseed to 1e-23
 Changing Tseed to 1e-12
 Changing Tseed to 1e-24
 to 2.0000000000000001e-18 seconds.
-Total elapsed time: 0.353 seconds.
+Total elapsed time: 0.338 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CMI_Comp\CMI_Comp.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Comparacion\CMI_Comp\CMI_Comp.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 
 v1: V(nodo_int) =0.194903791548 at 0.0002

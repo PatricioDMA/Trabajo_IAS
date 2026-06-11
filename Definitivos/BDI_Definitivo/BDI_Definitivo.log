@@ -1,8 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BDI_Definitivo\BDI_Definitivo.net
-Start Time: Wed Jun 10 11:43:26 2026
-
-.step iph=1e-09
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Definitivos\BDI_Definitivo\BDI_Definitivo.net
+Start Time: Thu Jun 11 12:06:45 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -16,21 +14,9 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-
-.step iph=1e-08
-Direct Newton iteration failed to find operating point.
-Starting Gmin stepping
-Gmin stepping succeeded in finding the operating point.
-
-
-.step iph=1e-07
-Direct Newton iteration failed to find operating point.
-Starting Gmin stepping
-Gmin stepping succeeded in finding the operating point.
-
-Total elapsed time: 0.253 seconds.
+Total elapsed time: 0.102 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BDI_Definitivo\BDI_Definitivo.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Definitivos\BDI_Definitivo\BDI_Definitivo.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 

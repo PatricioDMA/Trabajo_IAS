@@ -1,8 +1,8 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BDI_Etapa3\BDI_Etapa3.net
-Start Time: Mon Jun  8 20:35:35 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\BDI\BDI_Etapa3\BDI_Etapa3.net
+Start Time: Thu Jun 11 11:52:42 2026
 
-.step iph=1e-09 vc_ini=0
+.step vc_ini=0
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -17,57 +17,21 @@ Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
 
-.step iph=1e-08 vc_ini=0
-Direct Newton iteration failed to find operating point.
-Starting Gmin stepping
-Gmin stepping succeeded in finding the operating point.
-
-
-.step iph=1e-07 vc_ini=0
-Direct Newton iteration failed to find operating point.
-Starting Gmin stepping
-Gmin stepping succeeded in finding the operating point.
-
-
-.step iph=1e-09 vc_ini=2
+.step vc_ini=2
 Direct Newton iteration succeeded in finding operating point.
 
-.step iph=1e-08 vc_ini=2
+.step vc_ini=3
 Direct Newton iteration succeeded in finding operating point.
 
-.step iph=1e-07 vc_ini=2
+.step vc_ini=4
 Direct Newton iteration succeeded in finding operating point.
 
-.step iph=1e-09 vc_ini=3
+.step vc_ini=5
 Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-08 vc_ini=3
-Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-07 vc_ini=3
-Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-09 vc_ini=4
-Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-08 vc_ini=4
-Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-07 vc_ini=4
-Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-09 vc_ini=5
-Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-08 vc_ini=5
-Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-07 vc_ini=5
-Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 1.142 seconds.
+Total elapsed time: 0.396 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BDI_Etapa3\BDI_Etapa3.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\BDI\BDI_Etapa3\BDI_Etapa3.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 
 
@@ -78,121 +42,51 @@ Measurement: vbias
      3	2	1e-06
      4	2	1e-06
      5	2	1e-06
-     6	2	1e-06
-     7	2	1e-06
-     8	2	1e-06
-     9	2	1e-06
-    10	2	1e-06
-    11	2	1e-06
-    12	2	1e-06
-    13	2	1e-06
-    14	2	1e-06
-    15	2	1e-06
 
 Measurement: vpd
   step	V(nodo_pd) 	at
-     1	-1.00004999947e-05	1e-06
-     2	-0.000100005003585	1e-06
-     3	-0.0010000499922	1e-06
-     4	1.9973013401	1e-06
-     5	1.99729752541	1e-06
-     6	1.99724495411	1e-06
-     7	1.9973013401	1e-06
-     8	1.99729824066	1e-06
-     9	1.99728870392	1e-06
-    10	1.9973013401	1e-06
-    11	1.99729835987	1e-06
-    12	1.99728882313	1e-06
-    13	1.9973013401	1e-06
-    14	1.99729835987	1e-06
-    15	1.99728894234	1e-06
+     1	-0.0010000499922	1e-06
+     2	1.99724495411	1e-06
+     3	1.99728870392	1e-06
+     4	1.99728882313	1e-06
+     5	1.99728894234	1e-06
 
 Measurement: vg
   step	V(gate) 	at
-     1	2000.01000977	1e-06
-     2	2000.09997559	1e-06
-     3	2001	1e-06
-     4	2.69871544838	1e-06
-     5	2.70244121552	1e-06
-     6	2.75510501878	1e-06
-     7	2.69870018959	1e-06
-     8	2.70172572136	1e-06
-     9	2.71129107475	1e-06
-    10	2.69868516922	1e-06
-    11	2.7016825676	1e-06
-    12	2.71115589142	1e-06
-    13	2.69867086411	1e-06
-    14	2.70164060593	1e-06
-    15	2.71102428436	1e-06
+     1	2001	1e-06
+     2	2.75510501878	1e-06
+     3	2.71129107475	1e-06
+     4	2.71115589142	1e-06
+     5	2.71102428436	1e-06
 
 Measurement: vint
   step	V(nodo_int) 	at
-     1	-9.99999977263e-06	1e-06
-     2	-9.99999977263e-05	1e-06
-     3	-0.00100000005002	1e-06
-     4	1.99998998642	1e-06
-     5	1.99989998341	1e-06
-     6	1.99899995327	1e-06
-     7	2.99998998642	1e-06
-     8	2.9998998642	1e-06
-     9	2.99900007248	1e-06
-    10	3.99998998642	1e-06
-    11	3.9998998642	1e-06
-    12	3.99900007248	1e-06
-    13	4.99998998642	1e-06
-    14	4.9998998642	1e-06
-    15	4.99900007248	1e-06
+     1	-0.00100000005002	1e-06
+     2	1.99899995327	1e-06
+     3	2.99900007248	1e-06
+     4	3.99900007248	1e-06
+     5	4.99900007248	1e-06
 
 Measurement: v1
   step	V(nodo_int) 	at
-     1	-0.00049999986494	5e-05
-     2	-0.00499999863485	5e-05
-     3	-0.0499999866686	5e-05
-     4	1.99949901551	5e-05
-     5	1.99499900638	5e-05
-     6	1.94999903428	5e-05
-     7	2.99949857592	5e-05
-     8	2.99499842523	5e-05
-     9	2.94999854254	5e-05
-    10	3.99949796498	5e-05
-    11	3.9949980527	5e-05
-    12	3.9499980359	5e-05
-    13	4.99949756265	5e-05
-    14	4.99499768017	5e-05
-    15	4.94999766337	5e-05
+     1	-0.0499999866686	5e-05
+     2	1.94999903428	5e-05
+     3	2.94999854254	5e-05
+     4	3.9499980359	5e-05
+     5	4.94999766337	5e-05
 
 Measurement: v2
   step	V(nodo_int) 	at
-     1	-0.00199999806495	0.0002
-     2	-0.0199999799681	0.0002
-     3	-0.19999979463	0.0002
-     4	1.99799599777	0.0002
-     5	1.97999600633	0.0002
-     6	1.79999623462	0.0002
-     7	2.99799395439	0.0002
-     8	2.97999399992	0.0002
-     9	2.79999421683	0.0002
-    10	3.9979919622	0.0002
-    11	3.97999195654	0.0002
-    12	3.79999217345	0.0002
-    13	4.99799010605	0.0002
-    14	4.97998991316	0.0002
-    15	4.79999036849	0.0002
+     1	-0.19999979463	0.0002
+     2	1.79999623462	0.0002
+     3	2.79999421683	0.0002
+     4	3.79999217345	0.0002
+     5	4.79999036849	0.0002
 
 Measurement: slope
   step	(V2-V1)/(150u)
-     1	-9.99998800006
-     2	-99.9998755553
-     3	-999.998719746
-     4	-10.0201182548
-     5	-100.020000306
-     6	-1000.0186644
-     7	-10.0308102313
-     8	-100.029502066
-     9	-1000.02883804
-    10	-10.0400184973
-    11	-100.040641077
-    12	-1000.03908299
-    13	-10.0497106576
-    14	-100.051780088
-    15	-1000.04863254
+     1	-999.998719746
+     2	-1000.0186644
+     3	-1000.02883804
+     4	-1000.03908299
+     5	-1000.04863254

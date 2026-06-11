@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Definitivo\ID_Definitivo.net
-Start Time: Tue Jun  9 20:22:59 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Definitivos\ID_Definitivo\ID_Definitivo.net
+Start Time: Thu Jun 11 11:02:04 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -10,9 +10,9 @@ Instance "M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "M3": Length shorter than recommended for a level 1 MOSFET.
 Instance "M4": Length shorter than recommended for a level 1 MOSFET.
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.090 seconds.
+Total elapsed time: 0.087 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Definitivo\ID_Definitivo.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Definitivos\ID_Definitivo\ID_Definitivo.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 

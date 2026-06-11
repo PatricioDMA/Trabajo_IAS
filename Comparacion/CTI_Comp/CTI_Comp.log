@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Comp\CTI_Comp.net
-Start Time: Wed Jun 10 19:48:27 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Comparacion\CTI_Comp\CTI_Comp.net
+Start Time: Thu Jun 11 15:27:57 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -9,10 +9,10 @@ method = trap
 Instance "M1": Length shorter than recommended for a level 1 MOSFET.
 Instance "M2": Length shorter than recommended for a level 1 MOSFET.
 Per .tran options, skipping operating point for transient analysis.
-Total elapsed time: 0.097 seconds.
+Total elapsed time: 0.129 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CTI_Comp\CTI_Comp.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Comparacion\CTI_Comp\CTI_Comp.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
 

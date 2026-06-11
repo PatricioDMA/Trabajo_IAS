@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Etapa1\ID_Etapa1.net
-Start Time: Fri Jun  5 19:23:32 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\DI\ID_Etapa1\ID_Etapa1.net
+Start Time: Thu Jun 11 10:36:41 2026
 
 .step iph=0
 solver = Normal
@@ -19,10 +19,10 @@ Direct Newton iteration succeeded in finding operating point.
 
 .step iph=1e-07
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.311 seconds.
+Total elapsed time: 0.453 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Etapa1\ID_Etapa1.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\DI\ID_Etapa1\ID_Etapa1.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 
 

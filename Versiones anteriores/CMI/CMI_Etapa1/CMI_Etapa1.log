@@ -1,8 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CMI_Etapa1\CMI_Etapa1.net
-Start Time: Wed Jun 10 14:05:59 2026
-
-.step iph=1e-09
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\CMI\CMI_Etapa1\CMI_Etapa1.net
+Start Time: Thu Jun 11 13:47:20 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -13,57 +11,16 @@ Instance "Mp2": Length shorter than recommended for a level 1 MOSFET.
 Instance "Mn1": Length shorter than recommended for a level 1 MOSFET.
 Instance "Mn2": Length shorter than recommended for a level 1 MOSFET.
 Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-08
-Direct Newton iteration succeeded in finding operating point.
-
-.step iph=1e-07
-Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.330 seconds.
+Total elapsed time: 0.088 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CMI_Etapa1\CMI_Etapa1.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\CMI\CMI_Etapa1\CMI_Etapa1.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 
-
-Measurement: vpd
-  step	V(nodo_pd) 	at
-     1	0.000105982740934	1e-06
-     2	0.000306984555209	1e-06
-     3	0.000956645002589	1e-06
-
-Measurement: vx
-  step	V(nodo_x) 	at
-     1	4.29859638214	1e-06
-     2	4.29555940628	1e-06
-     3	4.28595781326	1e-06
-
-Measurement: vy
-  step	V(nodo_y) 	at
-     1	0.701457202435	1e-06
-     2	0.704596757889	1e-06
-     3	0.714528560638	1e-06
-
-Measurement: imn1
-  step	ID(Mn1) 	at
-     1	1.07804154492e-09	1e-06
-     2	1.07152962059e-08	1e-06
-     3	1.07049331177e-07	1e-06
-
-Measurement: imp1
-  step	ID(Mp1) 	at
-     1	-1.07804154492e-09	1e-06
-     2	-1.07152962059e-08	1e-06
-     3	-1.07049331177e-07	1e-06
-
-Measurement: imp2
-  step	ID(Mp2) 	at
-     1	-9.99999971718e-10	1e-06
-     2	-9.99999993923e-09	1e-06
-     3	-1.00000001169e-07	1e-06
-
-Measurement: imn2
-  step	ID(Mn2) 	at
-     1	9.99999971718e-10	1e-06
-     2	9.99999993923e-09	1e-06
-     3	1.00000001169e-07	1e-06
+vpd: V(nodo_pd) =0.000956645002589 at 1e-06
+vx: V(nodo_x) =4.28595781326 at 1e-06
+vy: V(nodo_y) =0.714528560638 at 1e-06
+imn1: ID(Mn1) =1.07049331177e-07 at 1e-06
+imp1: ID(Mp1) =-1.07049331177e-07 at 1e-06
+imp2: ID(Mp2) =-1.00000001169e-07 at 1e-06
+imn2: ID(Mn2) =1.00000001169e-07 at 1e-06

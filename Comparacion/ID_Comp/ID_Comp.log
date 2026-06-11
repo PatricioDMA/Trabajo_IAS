@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Comp\ID_Comp.net
-Start Time: Wed Jun 10 18:25:36 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Comparacion\ID_Comp\ID_Comp.net
+Start Time: Thu Jun 11 15:26:00 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -22,10 +22,10 @@ Changing Tseed to 1.95313e-06
 Changing Tseed to 1.95312e-16
 Changing Tseed to 1.95312e-05
 Changing Tseed to 1.95312e-17
-Total elapsed time: 0.101 seconds.
+Total elapsed time: 0.247 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\ID_Comp\ID_Comp.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Comparacion\ID_Comp\ID_Comp.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 
 v1: V(nodo_int) =0.180021421643 at 0.0002

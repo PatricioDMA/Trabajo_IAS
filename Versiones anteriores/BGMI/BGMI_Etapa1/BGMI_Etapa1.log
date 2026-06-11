@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Etapa1\BGMI_Etapa1.net
-Start Time: Tue Jun  9 21:52:50 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\BGMI\BGMI_Etapa1\BGMI_Etapa1.net
+Start Time: Thu Jun 11 13:24:26 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -13,12 +13,20 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.078 seconds.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.389 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Etapa1\BGMI_Etapa1.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\BGMI\BGMI_Etapa1\BGMI_Etapa1.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
 
-vpd: V(nodo_pd)=1.99999725819 at 2
-vx: V(nodo_x)=4.2856798172 at 2
+vpd: V(nodo_pd)=1.99999725819 at 1e-09
+vx: V(nodo_x)=4.29686021805 at 1e-09

@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CMI_Etapa2\CMI_Etapa2.net
-Start Time: Wed Jun 10 14:24:58 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\CMI\CMI_Etapa2\CMI_Etapa2.net
+Start Time: Thu Jun 11 13:51:32 2026
 
 .step iph=1e-09
 solver = Normal
@@ -139,10 +139,10 @@ to 2.0000000000000001e-18 seconds.
 .step iph=1e-08
 
 .step iph=1e-07
-Total elapsed time: 0.411 seconds.
+Total elapsed time: 0.452 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\CMI_Etapa2\CMI_Etapa2.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\CMI\CMI_Etapa2\CMI_Etapa2.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 
 

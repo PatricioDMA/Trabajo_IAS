@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Comp\BGMI_Comp.net
-Start Time: Wed Jun 10 19:56:41 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Comparacion\BGMI_Comp\BGMI_Comp.net
+Start Time: Thu Jun 11 15:28:24 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -181,10 +181,10 @@ Changing Tseed to 1e-23
 Changing Tseed to 1e-12
 Changing Tseed to 1e-24
 to 4.0000000000000003e-18 seconds.
-Total elapsed time: 0.384 seconds.
+Total elapsed time: 0.330 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Comp\BGMI_Comp.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Comparacion\BGMI_Comp\BGMI_Comp.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
 

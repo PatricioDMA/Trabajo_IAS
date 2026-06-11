@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Etapa2\BGMI_Etapa2.net
-Start Time: Wed Jun 10 11:01:05 2026
+Circuit: C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\BGMI\BGMI_Etapa2\BGMI_Etapa2.net
+Start Time: Thu Jun 11 12:39:52 2026
 
 .step iph=1e-09
 solver = Normal
@@ -16,10 +16,10 @@ Per .tran options, skipping operating point for transient analysis.
 .step iph=1e-08
 
 .step iph=1e-07
-Total elapsed time: 0.475 seconds.
+Total elapsed time: 0.275 seconds.
 
 Files loaded:
-C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\BGMI_Etapa2\BGMI_Etapa2.net
+C:\Users\pdema\Downloads\Instrumentación y Acondicionamiento de Señal\Trabajo\Versiones anteriores\BGMI\BGMI_Etapa2\BGMI_Etapa2.net
 C:\Users\pdema\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\pdema\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
 
